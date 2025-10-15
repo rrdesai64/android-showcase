@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <!-- Base application theme using Material 3 Dynamic Colors -->
+        <style name="Theme.Showcase" parent="Theme.Material3.DynamicColors.Light">
+            <!-- Customize your light theme here -->
+            <item name="android:statusBarColor">@android:color/transparent</item>
+            <item name="android:navigationBarColor">@android:color/transparent</item>
+        </style>
+
+        <!-- Splash screen theme -->
+        <style name="Theme.Showcase.Splash" parent="Theme.SplashScreen">
+            <item name="windowSplashScreenBackground">@color/splash_background</item>
+            <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+            <item name="postSplashScreenTheme">@style/Theme.Showcase</item>
+        </style>
+
+</resources>

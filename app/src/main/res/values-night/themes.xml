@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+        <!-- Dark theme using Material 3 Dynamic Colors -->
+        <style name="Theme.Showcase" parent="Theme.Material3.DynamicColors.Dark">
+            <!-- Customize your dark theme here -->
+            <item name="android:statusBarColor">@android:color/transparent</item>
+            <item name="android:navigationBarColor">@android:color/transparent</item>
+        </style>
+
+        <!-- Splash screen theme for dark mode -->
+        <style name="Theme.Showcase.Splash" parent="Theme.SplashScreen">
+            <item name="windowSplashScreenBackground">@color/splash_background</item>
+            <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+            <item name="postSplashScreenTheme">@style/Theme.Showcase</item>
+        </style>
+
+</resources>
